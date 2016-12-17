@@ -13,6 +13,7 @@ class Osoba {
     String imie;
     String nazwisko;
     int pensja;
+
     public void wyświetl (){
         System.out.print (imie);
         System.out.print (" ");
@@ -21,10 +22,9 @@ class Osoba {
         System.out.print (pensja);
         System.out.println (".");
     }
-    public void Ustaw (String imie, String nazwisko, int pensja){
+    public Osoba (String imie, String nazwisko, int pensja){
         this.imie = imie;
         this.nazwisko= nazwisko;
         this.pensja = pensja; 
-        
     }
 }
