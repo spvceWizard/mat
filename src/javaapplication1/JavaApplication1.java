@@ -17,11 +17,13 @@ public class JavaApplication1 {
         // TODO code application logic here
                  
         Osoba osoba = new Osoba();
-        osoba.imie = "Jan" ;
-        osoba.nazwisko = "kowalski" ;
-        osoba.pensja = 1200 ; 
+        osoba.Ustaw("Jan","Kowalski",1200);
+         
+        Osoba osoba2 = new Osoba();
+        osoba2.Ustaw("Waldek","Nowak",2200);
     
-        osoba.wyświetl();
+       osoba.wyświetl ();
+       osoba2.wyświetl ();
        
     }
 }

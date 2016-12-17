@@ -20,6 +20,11 @@ class Osoba {
         System.out.print(" ");
         System.out.print (pensja);
         System.out.println (".");
-       
+    }
+    public void Ustaw (String imie, String nazwisko, int pensja){
+        this.imie = imie;
+        this.nazwisko= nazwisko;
+        this.pensja = pensja; 
+        
     }
 }
